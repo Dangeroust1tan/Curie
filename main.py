@@ -17,6 +17,7 @@ def getdate():
 while True:
     command=googlelisten()
     print(command)
-    if 'time'
+    if 'time' in command:
+        print(getdate())
     break
 
