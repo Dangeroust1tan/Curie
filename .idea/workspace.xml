@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ff5eab-a513-4063-9013-a9b82e724f24" name="Changes" comment="Jai Mata di" />
+    <list default="true" id="67ff5eab-a513-4063-9013-a9b82e724f24" name="Changes" comment="Jai Mata di">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657128778370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Jai Mata di">
+      <created>1657129276967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657129276967</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Jai Mata di">
+      <created>1657129387834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657129387834</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Jai Mata di">
+      <created>1657129443165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657129443165</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
