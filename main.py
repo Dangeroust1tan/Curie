@@ -1,7 +1,7 @@
 #
 import speech_recognition as sr
-#import datetime
-#import pocketsphinx
+import datetime
+import pocketsphinx
 
 r=sr.Recognizer()
 
