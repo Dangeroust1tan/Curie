@@ -1,6 +1,7 @@
+import os
 import speech_recognition as sr
-import datetime
-import pocketsphinx
+#import datetime
+#import pocketsphinx
 
 r=sr.Recognizer()
 
@@ -10,7 +11,6 @@ def googlelisten():
         audio=r.listen(source)
 
         command= r.recognize_google(audio)
-
         return command
 while True:
     command=googlelisten()
