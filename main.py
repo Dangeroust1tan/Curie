@@ -11,6 +11,9 @@ def googlelisten():
         audio=r.listen(source)
 
         command= r.recognize_google(audio)
+        print(command)
+        command = r.recognize_sphinx(audio)
+        print(command)
         return command
 
 def sphinxlisten():
