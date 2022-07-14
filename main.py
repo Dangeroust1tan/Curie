@@ -1,3 +1,6 @@
+import flask
+import win32api
+import os
 import speech_recognition as sr
 import datetime
 import pyttsx3
@@ -21,10 +24,13 @@ def googlelisten():
 
 def getdate():
     return datetime.datetime.now().strftime('%I:%M %p')
+
 while True:
     command=googlelisten()
     print(command)
     if 'time' in command:
-        print(getdate())
+        date=getdate()
+        print(date)
+        speak(date)
     break
 
