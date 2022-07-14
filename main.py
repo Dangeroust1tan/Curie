@@ -1,8 +1,11 @@
 import speech_recognition as sr
 import datetime
-import pocketsphinx
+import pyttsx3
 
 r=sr.Recognizer()
+engine = pyttsx3.init()
+engine.say("I will speak this text")
+engine.runAndWait()
 
 def googlelisten():
     with sr.Microphone() as source:
