@@ -4,6 +4,8 @@ import pyttsx3
 
 r=sr.Recognizer()
 engine = pyttsx3.init()
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[1].id)
 engine.say("I will speak this text")
 engine.runAndWait()
 
